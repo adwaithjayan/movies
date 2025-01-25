@@ -74,7 +74,7 @@ export default function App() {
     loadTrendingMovies();
   }, []);
   return (
-    <main>
+    <main className='overflow-x-hidden'>
       <div className='pattern'/>
       <div className='wrapper'>
         <header>
